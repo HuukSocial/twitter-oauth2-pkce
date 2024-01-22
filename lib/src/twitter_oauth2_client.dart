@@ -109,7 +109,7 @@ class _TwitterOAuth2Client implements TwitterOAuth2Client {
 
     final redirectedUri = await _webAuthClient.authenticate(
       uri: Uri.https(
-        'twitter.com',
+        'm.twitter.com',
         '/i/oauth2/authorize',
         {
           'response_type': 'code',
